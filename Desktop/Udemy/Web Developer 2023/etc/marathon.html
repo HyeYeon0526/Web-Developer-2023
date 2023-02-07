@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Ragister Form</title>
+    <style>
+            body{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            }
+            h1{
+                font-weight: bolder;
+            }
+    </style>
+</head>
+<body>
+    <h1>Race Registration!</h1>
+
+    <label for="first">First Name <input type="text" value="asdas" id="first" ></label>
+    <label for="last">Last Name <input type="text" value="asdas" id="last"></label>
+
+    <p>Select a Race :</p>
+    <div>
+        <div><label for="funrun"><input type="radio" name="raceType" id="funrun" value="5k">Fun Run 5k</label></div>
+        <div><label for="half"><input type="radio" name="raceType" id="half" value="half">Half Marathon</label></div>
+        <div><label for="full"><input type="radio" name="raceType" id="full" value="full">Full Marathon</label></div>
+    </div>
+
+    <div>
+        <label for="email"> Email <input type="text" value="asdasd" id="email"></label>
+        <label for="password"> Password <input type="password" value="asdasd" id='password'></label>
+    </div>
+
+    <div>
+        <label>Select Age Group</label>
+        <select name="Age">
+            <option value="value1">under 18</option>
+            <option value="value2">19-29</option>
+            <option value="value3">30-40</option>
+            <option value="value4">over 41</option>
+        </select>
+    </div>
+
+    <input type="button" value="Register!">
+</body>
+</html>
